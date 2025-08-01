@@ -9,54 +9,16 @@ A simple command-line Python application to calculate the Body Mass Index (BMI) 
 - Provides interpretation (Underweight, Normal, Overweight, Obese)
 - Handles invalid input gracefully
 
-## How to Run
+## how to run
 ```bash
 python bmi_calculator.py
 
-# 
----
+## example code
+Enter your weight in kg: 70
+Enter your height in meters: 1.75
 
-# ✅ 2. **Random Password Generator – `password_generator/README.md`**
+Your BMI is: 22.86
+Category: Normal weight
 
-```markdown
-# 🔐 Random Password Generator
-
-## Description
-A Python script that generates strong, random passwords based on user-specified criteria such as length and character types.
-
-## Features
-- Customizable password length
-- Option to include uppercase, lowercase, numbers, and special characters
-- Uses Python's `random` module
-- Simple command-line interface
-
-## How to Run
-```bash
-python password_generator.py
-
-
----
-
-# ✅ 3. **Text-Based Chat Application – `chat_app/README.md`**
-
-```markdown
-# 💬 Text-Based Chat Application
-
-## Description
-A basic terminal-based chat system built using Python sockets. It allows two users on the same local network (LAN) to exchange text messages in real-time.
-
-## Features
-- Real-time text communication
-- Client-server architecture using TCP
-- Runs in the terminal
-- Educational example of socket programming in Python
-
-## Files
-- `server.py`: Run this first on the host machine
-- `client.py`: Run this on the connecting machine
-
-## How to Run
-
-### On Server:
-```bash
-python server.py
+## requirements
+-Python3.x

@@ -8,6 +8,8 @@ A simple command-line Python application to calculate the Body Mass Index (BMI) 
 - Calculates BMI using the standard formula
 - Provides interpretation (Underweight, Normal, Overweight, Obese)
 - Handles invalid input gracefully
+## Requirements
+- Python3.x
 
 ## how to run
 ```bash
@@ -19,6 +21,3 @@ Enter your height in meters: 1.75
 
 Your BMI is: 22.86
 Category: Normal weight
-
-## requirements
--Python3.x

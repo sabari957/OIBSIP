@@ -12,7 +12,7 @@ Steps Performed:
 
 
 
-BMI = \frac{\text{weight}}{\text{height}^2}
+bmi = weight / (height ** 2)
 
 4. Display the BMI value and category to the user.
 
